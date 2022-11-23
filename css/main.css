@@ -41,7 +41,7 @@ body{
     align-items: center;
 } */
 
-.calkulator-black {
+.calculator-black {
     font-family: 'Poppins', sans-serif;
     width: 350px;
     height: 660px;
@@ -51,7 +51,7 @@ body{
     padding: 10px;
 }
 
-.calkulator-white {
+.calculator-white {
     font-family: 'Poppins', sans-serif;
     width: 350px;
     height: 660px;
