@@ -10,51 +10,54 @@
 </head>
 <body>
     <main class="wrapper">
-        <div class="back-black">
-            <div class="calkulator-black">
+        <div class="back">
+            <div id="calculator" class="calkulator-black calkulator-while">
                     <header>
-                        <div class="on-of">
-                            <img src="./img/Vector.png" alt="">
+                        <div class="on-of-while">
+                            <!-- <img src="./img/pngwing.com-2.png" alt=""> -->
                         </div>
                     </header>
-                    <main class="output">
-                        <div></div>
+                    <main id="result" class="output">
+                        <div class="previous-number"></div>
+                        <div class="sign"></div>
+                        <div class="result"></div>
                     </main>
                     <footer class="choice">
                         <div class="white-num">
-                            <div class="circle-black clear">C</div>
-                            <div class="circle-black mines">-/+</div>
-                            <div class="circle-black percent">%</div>
-                            <div class="circle-black divide">:</div>
+                            <div id="clear" class="circle-black clear">C</div>
+                            <div id="operator" class="circle-black mines">2^</div>
+                            <div id="operator" class="circle-black percent">%</div>
+                            <div id="operator" class="circle-black divide">/</div>
                         </div>
                         <div class="white-num">
-                            <div class="circle-black num7">7</div>
-                            <div class="circle-black num8">8</div>
-                            <div class="circle-black num9">9</div>
-                            <div class="circle-black multiply">x</div>
+                            <div id="numbers" class="circle-black num7">7</div>
+                            <div id="numbers" class="circle-black num8">8</div>
+                            <div id="numbers" class="circle-black num9">9</div>
+                            <div id="operator" class="circle-black multiply">x</div>
                             <div></div>
                         </div>
                         <div class="white-num">
-                            <div class="circle-black num4">4</div>
-                            <div class="circle-black num5">5</div>
-                            <div class="circle-black num6">6</div>
-                            <div class="circle-black subtract">-</div>
+                            <div id="numbers" class="circle-black num4">4</div>
+                            <div id="numbers" class="circle-black num5">5</div>
+                            <div id="numbers" class="circle-black num6">6</div>
+                            <div id="operator" class="circle-black subtract">-</div>
                         </div>
                         <div class="white-num">
-                            <div class="circle-black num1">1</div>
-                            <div class="circle-black num2">2</div>
-                            <div class="circle-black num3">3</div>
-                            <div class="circle-black add">+</div>
+                            <div id="numbers" class="circle-black num1">1</div>
+                            <div id="numbers" class="circle-black num2">2</div>
+                            <div id="numbers" class="circle-black num3">3</div>
+                            <div id="operator" class="circle-black add">+</div>
                         </div>
                         <div class="white-num">
-                            <div class="circle-black zero">0</div>
-                            <div class="circle-black dot">.</div>
-                            <div class="circle-black equals">=</div>
+                            <div id="numbers" class="circle-black zero">0</div>
+                            <div id="numbers" class="circle-black dot">.</div>
+                            <div id="equalsOperator" class="circle-black equals">=</div>
                         </div>
                     </footer>
             </div>
             <h5 class="by">by Krystyna Nazarova</h5>
         </div>
     </main>
+    <script src="./js/style.js"></script>
 </body>
 </html>

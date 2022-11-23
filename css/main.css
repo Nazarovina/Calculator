@@ -13,7 +13,7 @@ body{
     padding: 20px;
 }
 /*-------------Можно удалить фон одинаковый-----------*/
-.back-black {
+.back {
     margin: 60px auto;
     padding: 20px;
     height: 600px;
@@ -26,7 +26,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.back-while {
+/* .back-while {
     margin: 60px auto;
     padding: 20px;
     height: 600px;
@@ -34,12 +34,12 @@ body{
     border-radius: 50%;
     background-color: #EEB767;
     /* opacity: 0.7; */
-    box-shadow: 0px 0px 50px -10px rgba(117, 96, 15, 1);
+    /* box-shadow: 0px 0px 50px -10px rgba(117, 96, 15, 1);
     display: flex;
     align-content: stretch;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 .calkulator-black {
     font-family: 'Poppins', sans-serif;
@@ -61,15 +61,48 @@ body{
     padding: 10px;
 }
 
-.on-of {
-    padding: 20px;
+.on-of-while {
+    margin: 20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #249b16;
+}
+
+.on-of-while:hover {
+    transition: background-color 1.7s linear;
+    background-color: #FF9500;
 }
 
 .output{
-    width: 80%;
-    height: 140px;
+    width: 90%;
+    height: 155px;
     margin: auto;
+    color: #eaa23d;
+    font-size: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
 }
+
+.previous-number {
+    height: 40px;
+    width: 100%;
+    font-size: 33px;
+}
+.sign {
+    height: 20px;
+    width: 100%;
+    font-size: 33px;
+}
+.result {
+    height: 70px;
+    width: 100%;
+    padding-top: 10px;
+}
+
 .choice{
     margin-top: 20px;
     display: flex;
